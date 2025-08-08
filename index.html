@@ -1,104 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muhammad Kamran | AI/ML Engineer</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Kamran - AI/ML Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header / Hero Section -->
-  <header class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <img id="photoPreview" src="images/kamran.jpg" alt="Muhammad Kamran" class="profile-img">
-        <h1>Muhammad Kamran</h1>
-        <p class="tagline">AI / ML Engineer | Deep Learning | Generative AI Enthusiast</p>
-        <p class="contact">
-          <a href="mailto:kamran32203@gmail.com">kamran32203@gmail.com</a> | 
-          <a href="https://www.linkedin.com/in/muhammad-kamran-khalid/" target="_blank">LinkedIn</a>
-        </p>
-        <button id="printBtn" class="btn">Download Resume</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        Hands-on AI/ML Engineer experienced in developing and evaluating ML/DL models for Computer Vision and NLP. 
-        Skilled in Python, TensorFlow, and Keras. Currently expanding expertise into Generative AI with multiple projects in CV and NLP.
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skill-tags">
-        <span>Python</span>
-        <span>TensorFlow</span>
-        <span>Keras</span>
-        <span>YOLO</span>
-        <span>NLP</span>
-        <span>Computer Vision</span>
-        <span>Deep Learning</span>
-        <span>Generative AI</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section class="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-list">
-        <div class="project-card">
-          <h3>Brain Tumor Classification</h3>
-          <p>Transfer Learning on MRI scans using CNN models for tumor detection.</p>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Muhammad Kamran</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <div class="project-card">
-          <h3>Movie Review Sentiment Analysis</h3>
-          <p>Classified movie reviews using NLP preprocessing and logistic regression.</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Muhammad Kamran</h1>
+                <p class="title">AI/ML Engineer</p>
+                <p class="subtitle">Deep Learning • Machine Learning • Natural Language Processing</p>
+                <p>Passionate AI/ML Engineer with hands-on experience in developing intelligent solutions using Python, TensorFlow, and cutting-edge deep learning techniques. Currently expanding expertise in Generative AI while specializing in computer vision, NLP, and healthcare AI applications.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-container">
+                    <img src="images/kamran.jpg" alt="Muhammad Kamran - AI/ML Engineer" class="profile-image">
+                    <div class="floating-elements">
+                        <div class="floating-element"></div>
+                        <div class="floating-element"></div>
+                        <div class="floating-element"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project-card">
-          <h3>Paragraph Summarizer</h3>
-          <p>Extractive summarization tool built with Python and deployed with Streamlit.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>AI/ML Engineer passionate about creating intelligent solutions that make a real-world impact</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>AI/ML Research & Development</h3>
+                    <p>Currently pursuing Bachelor of Science in Computer Science at University of Education, Lahore (2023-2027). I have hands-on experience as an AI/ML Research Intern, where I developed and analyzed machine learning solutions with a focus on healthcare applications and natural language processing.</p>
+                    <p>Recently completed a two-month research internship under the National Center of Artificial Intelligence (NCAI), where I assisted in cutting-edge ML/DL research and reporting. I'm proficient in Python, TensorFlow, Keras, and various NLP techniques, with growing expertise in Generative AI technologies.</p>
+                    
+                    <div class="experience-item">
+                        <h4>Research Intern</h4>
+                        <div class="company">Intelligence Criminology Research Lab (ICRL), NCAI</div>
+                        <div class="date">May 2024 – July 2024</div>
+                        <p>Conducted ML/DL research on healthcare imaging and criminology applications. Developed transfer learning models for medical image classification and contributed to research publications.</p>
+                    </div>
+                    
+                    <a href="mailto:kamran32203@gmail.com" class="btn btn-primary">Download Resume</a>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">🤖</div>
+                        <h4>Machine Learning</h4>
+                        <p>Scikit-learn, Model Training, Feature Engineering, Data Analysis</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🧠</div>
+                        <h4>Deep Learning</h4>
+                        <p>TensorFlow, Keras, CNN, Transfer Learning, Neural Networks</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">💬</div>
+                        <h4>Natural Language Processing</h4>
+                        <p>Text Processing, Sentiment Analysis, Tokenization, TF-IDF</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">👁️</div>
+                        <h4>Computer Vision</h4>
+                        <p>OpenCV, Medical Imaging, Object Detection, YOLO, Image Classification</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🐍</div>
+                        <h4>Python Programming</h4>
+                        <p>Data Analysis, Visualization, Research, Scientific Computing</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">✨</div>
+                        <h4>Generative AI</h4>
+                        <p>Currently Learning: LLMs, Prompt Engineering, AI Applications</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="project-card">
-          <h3>Bone Fracture Detection</h3>
-          <p>YOLO-based object detection on X-ray images for medical diagnosis.</p>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications & Achievements</h2>
+                <p>Professional certifications and continuous learning in AI/ML technologies</p>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">☁️</div>
+                    <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+                    <p>Cloud-based AI services and machine learning on Microsoft Azure platform</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>NAVTTC Certified AI Course</h3>
+                    <p>Comprehensive artificial intelligence training program covering ML/DL fundamentals</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🐍</div>
+                    <h3>Python for Everybody - Coursera</h3>
+                    <p>Complete Python programming specialization with data analysis focus</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🤖</div>
+                    <h3>Machine Learning - Andrew NG</h3>
+                    <p>Stanford's renowned machine learning course covering algorithms and applications</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Experience & Education -->
-  <section class="experience">
-    <div class="container">
-      <h2>Experience</h2>
-      <p><strong>Research Intern</strong> - Intelligence Criminology Research Lab, NCAI (May 2024 – July 2024)</p>
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>AI/ML solutions addressing real-world challenges in healthcare, NLP, and computer vision</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🧠</div>
+                    <div class="project-content">
+                        <h3>Brain Tumor Classification using Transfer Learning</h3>
+                        <p>Applied transfer learning with pre-trained models (VGG16, ResNet) on brain MRI scans to classify tumor presence. Achieved high accuracy through fine-tuning and data augmentation techniques.</p>
+                        <div class="project-tags">
+                            <span class="tag ai-tag">Deep Learning</span>
+                            <span class="tag">CNN</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Healthcare AI</span>
+                            <span class="tag">Transfer Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">🎬</div>
+                    <div class="project-content">
+                        <h3>Movie Review Sentiment Analysis</h3>
+                        <p>Built an NLP model to classify movie reviews as positive or negative using logistic regression. Implemented comprehensive text preprocessing with tokenization, stopword removal, and TF-IDF vectorization.</p>
+                        <div class="project-tags">
+                            <span class="tag ai-tag">NLP</span>
+                            <span class="tag">Text Classification</span>
+                            <span class="tag">Logistic Regression</span>
+                            <span class="tag">TF-IDF</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📝</div>
+                    <div class="project-content">
+                        <h3>Paragraph Summarizer</h3>
+                        <p>Created an intelligent text summarization tool using extractive summarization techniques. Deployed as an interactive web application using Streamlit for seamless user experience.</p>
+                        <div class="project-tags">
+                            <span class="tag ai-tag">NLP</span>
+                            <span class="tag">Text Summarization</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Web App</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">🦴</div>
+                    <div class="project-content">
+                        <h3>Bone Fracture Detection using Object Detection</h3>
+                        <p>Developed a YOLO-based object detection model to identify bone fractures in X-ray images. Utilized medical imaging preprocessing with LabelImg and OpenCV for accurate annotation and analysis.</p>
+                        <div class="project-tags">
+                            <span class="tag ai-tag">Computer Vision</span>
+                            <span class="tag">YOLO</span>
+                            <span class="tag">Medical Imaging</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="education">
-    <div class="container">
-      <h2>Education</h2>
-      <p>B.Sc. Computer Science — University of Education, Lahore (2023–2027)</p>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss AI/ML opportunities and innovative projects</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:kamran32203@gmail.com">kamran32203@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <div>
+                            <strong>LinkedIn:</strong><br>
+                            <a href="https://linkedin.com/in/muhammad-kamran-khalid/" target="_blank">linkedin.com/in/muhammad-kamran-khalid/</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Location:</strong><br>
+                            Lahore, Pakistan
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌐</span>
+                        <div>
+                            <strong>Languages:</strong><br>
+                            English, Urdu
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="AI/ML Project Discussion" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your AI/ML project or opportunity..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>© 2025 Muhammad Kamran. Built with ❤️ using HTML, CSS, and JS.</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="mailto:kamran32203@gmail.com" class="social-link" title="Email">📧</a>
+                <a href="https://linkedin.com/in/muhammad-kamran-khalid/" target="_blank" class="social-link" title="LinkedIn">💼</a>
+                <a href="#" class="social-link" title="GitHub">🐙</a>
+                <a href="#" class="social-link" title="Twitter">🐦</a>
+            </div>
+            <p>&copy; 2025 Muhammad Kamran. All rights reserved. Made with ❤️ for AI/ML</p>
+        </div>
+    </footer>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
