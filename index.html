@@ -1,128 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Muhammad Kamran — AI/ML Engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Kamran | AI/ML Engineer</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <div class="left">
-        <div class="photo-wrap">
-          <img id="photoPreview" src="/images/kamran.png" alt="Your photo (optional)" />
-          <label class="upload-btn">
-            <input id="photoInput" type="file" accept="image/*" />
-            Add photo
-          </label>
-        </div>
-      </div>
-      <div class="right">
-        <h1 id="fullName">Muhammad Kamran</h1>
-        <p class="title">AI / ML Engineer</p>
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img id="photoPreview" src="profile.jpg" alt="Muhammad Kamran" class="profile-img">
+        <h1>Muhammad Kamran</h1>
+        <p class="tagline">AI / ML Engineer | Deep Learning | Generative AI Enthusiast</p>
         <p class="contact">
-          Lahore, Pakistan &nbsp;|&nbsp;
-          <a href="mailto:kamran32203@gmail.com">kamran32203@gmail.com</a> &nbsp;|&nbsp;
-          <a href="https://www.linkedin.com/in/muhammad-kamran-khalid/" target="_blank" rel="noopener">linkedin.com/in/muhammad-kamran-khalid</a>
+          <a href="mailto:kamran32203@gmail.com">kamran32203@gmail.com</a> | 
+          <a href="https://www.linkedin.com/in/muhammad-kamran-khalid/" target="_blank">LinkedIn</a>
         </p>
+        <button id="printBtn" class="btn">Download Resume</button>
+      </div>
+    </div>
+  </header>
 
-        <div class="actions">
-          <button id="printBtn">Print / Save PDF</button>
-          <button id="toggleThemeBtn">Toggle Theme</button>
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hands-on AI/ML Engineer experienced in developing and evaluating ML/DL models for Computer Vision and NLP. 
+        Skilled in Python, TensorFlow, and Keras. Currently expanding expertise into Generative AI with multiple projects in CV and NLP.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill-tags">
+        <span>Python</span>
+        <span>TensorFlow</span>
+        <span>Keras</span>
+        <span>YOLO</span>
+        <span>NLP</span>
+        <span>Computer Vision</span>
+        <span>Deep Learning</span>
+        <span>Generative AI</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Brain Tumor Classification</h3>
+          <p>Transfer Learning on MRI scans using CNN models for tumor detection.</p>
+        </div>
+        <div class="project-card">
+          <h3>Movie Review Sentiment Analysis</h3>
+          <p>Classified movie reviews using NLP preprocessing and logistic regression.</p>
+        </div>
+        <div class="project-card">
+          <h3>Paragraph Summarizer</h3>
+          <p>Extractive summarization tool built with Python and deployed with Streamlit.</p>
+        </div>
+        <div class="project-card">
+          <h3>Bone Fracture Detection</h3>
+          <p>YOLO-based object detection on X-ray images for medical diagnosis.</p>
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <main>
-      <section class="summary card">
-        <h2>Professional Summary</h2>
-        <p>
-          Hands-on AI/ML Engineer experienced in developing and evaluating machine learning and deep-learning models for Computer Vision (CV) and Natural Language Processing (NLP). Completed research internships at the National Center of Artificial Intelligence (NCAI) contributing to ML/DL research and reporting. Skilled with Python, TensorFlow & Keras, data analysis, and model deployment. Currently expanding expertise into Generative AI and advanced deep learning techniques.
-        </p>
-      </section>
+  <!-- Experience & Education -->
+  <section class="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <p><strong>Research Intern</strong> - Intelligence Criminology Research Lab, NCAI (May 2024 – July 2024)</p>
+    </div>
+  </section>
 
-      <section class="skills card two-col">
-        <div>
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>Python, NumPy, Pandas</li>
-            <li>TensorFlow, Keras</li>
-            <li>Computer Vision (CNNs, Transfer Learning, YOLO)</li>
-            <li>NLP (text preprocessing, summarization, classification)</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Other Skills</h3>
-          <ul>
-            <li>Data Analysis & Visualization</li>
-            <li>Research & Report Writing</li>
-            <li>Model Evaluation & Optimization</li>
-            <li>Streamlit / Web deployment basics</li>
-          </ul>
-        </div>
-      </section>
+  <section class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p>B.Sc. Computer Science — University of Education, Lahore (2023–2027)</p>
+    </div>
+  </section>
 
-      <section class="projects card">
-        <h2>Selected Projects</h2>
-
-        <article>
-          <h4>Brain Tumor Classification — Transfer Learning</h4>
-          <p><em>Deep Learning • CNN • Healthcare Imaging</em></p>
-          <p>Applied transfer learning using pre-trained models (e.g., VGG16, ResNet) on brain MRI scans to classify tumor presence. Fine-tuned layers, used data augmentation and Keras/TensorFlow to achieve strong accuracy and generalization.</p>
-        </article>
-
-        <article>
-          <h4>Movie Review Sentiment Analysis</h4>
-          <p><em>NLP • Text Classification • Logistic Regression</em></p>
-          <p>Built a sentiment classification pipeline with tokenization, stopword removal, TF-IDF and Logistic Regression. Evaluated with F1-score and accuracy metrics.</p>
-        </article>
-
-        <article>
-          <h4>Paragraph Summarizer</h4>
-          <p><em>NLP • Extractive Summarization • Streamlit</em></p>
-          <p>Implemented an extractive summarizer (frequency-based) and deployed as a Streamlit app for quick text summarization.</p>
-        </article>
-
-        <article>
-          <h4>Bone Fracture Detection — Object Detection (YOLO)</h4>
-          <p><em>Computer Vision • Object Detection • Medical Imaging</em></p>
-          <p>Annotated X-ray datasets, trained a YOLO-based detector to highlight fracture regions, and used OpenCV for preprocessing.</p>
-        </article>
-      </section>
-
-      <section class="experience-edu card two-col">
-        <div>
-          <h2>Experience</h2>
-          <h4>Research Intern — Intelligence Criminology Research Lab (ICRL), NCAI</h4>
-          <p><strong>Al-Khwarizmi Institute of Computer Science, Lahore</strong></p>
-          <p><em>May 2024 – July 2024</em></p>
-          <p>Contributed to ML/DL research, developed experiments, and prepared technical reports for internal research projects.</p>
-        </div>
-
-        <div>
-          <h2>Education & Certifications</h2>
-          <p><strong>B.Sc. Computer Science</strong><br />University of Education, Township, Lahore — 2023–2027</p>
-
-          <h4>Certifications</h4>
-          <ul>
-            <li>Microsoft Certified: Azure AI Fundamentals</li>
-            <li>NAVTTC Certified AI Course</li>
-            <li>Python for Everybody — Coursera</li>
-            <li>Machine Learning — Andrew Ng</li>
-          </ul>
-
-          <h4>Languages</h4>
-          <p>English, Urdu</p>
-        </div>
-      </section>
-
-      <section class="footer card">
-        <h3>Contact & Next Steps</h3>
-        <p>If you'd like the source files, custom edits (layout, colors, or content), or a PDF export optimized for printing, DM me or update the content directly in the HTML. This page is responsive and easy to customize.</p>
-      </section>
-    </main>
-  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Muhammad Kamran. Built with ❤️ using HTML, CSS, and JS.</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
