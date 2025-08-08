@@ -133,20 +133,20 @@ footer {
 }
 
 .profile-image-wrapper {
-  width: 150px;              /* size of the circle */
+  width: 150px;
   height: 150px;
-  border-radius: 50%;        /* makes it round */
-  overflow: hidden;          /* hides outside edges */
-  border: 3px solid #fff;    /* optional white border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  background-color: #f0f0f0; /* fills empty space */
+  border-radius: 50%;
+  background-color: #007bff; /* blue fill to edges */
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .profile-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;       /* shows full image without cropping */
+  object-fit: contain; /* full image visible */
 }
