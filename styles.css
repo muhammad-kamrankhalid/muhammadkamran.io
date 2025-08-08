@@ -25,22 +25,32 @@ body {
   text-align: center;
 }
 
-.hero-content .profile-img {
-  width: 130px;
-  height: 130px;
-  object-fit: cover;
+.profile-image-wrapper {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  overflow: hidden;
   border: 3px solid #fff;
-  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 auto 15px;
+  background: #f0f0f0;
 }
 
-.hero-content h1 {
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* shows full picture without cropping */
+  background-color: #fff;
+}
+
+.hero h1 {
   font-size: 2.5rem;
+  margin-bottom: 5px;
 }
 
-.hero-content .tagline {
+.tagline {
   font-size: 1.1rem;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .contact a {
@@ -120,31 +130,8 @@ footer {
   text-align: center;
 }
 
-/* Profile Image Wrapper */
-.profile-image-wrapper {
-  width: 150px;              /* size of image */
-  height: 150px;
-  border-radius: 50%;        /* make it round */
-  overflow: hidden;          /* hide overflow outside the circle */
-  border: 3px solid #fff;    /* optional border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  margin: 0 auto 15px;       /* center it and add bottom margin */
-  background: #f0f0f0;       /* placeholder bg */
+@media(max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
 }
-
-..profile-image-wrapper {
-  width: 150px;              /* circle size */
-  height: 150px;
-  border-radius: 50%;        /* makes it round */
-  overflow: hidden;          /* hides outside edges */
-  border: 3px solid #fff;    /* optional border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.profile-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;         /* fills the circle completely */
-  object-position: center;   /* centers your face */
-}
-
