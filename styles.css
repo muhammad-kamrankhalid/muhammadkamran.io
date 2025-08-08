@@ -145,7 +145,7 @@ footer {
 .profile-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;       /* fills the circle, but may crop edges */
-  object-position: center top bottom; /* adjust this to move face into frame */
+  object-fit: contain;       /* show full image without cropping */
+  background-color: #fff;    /* prevents transparent edges from looking odd */
 }
 
