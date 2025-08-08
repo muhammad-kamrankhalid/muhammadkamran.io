@@ -26,8 +26,8 @@ body {
 }
 
 .hero-content .profile-img {
-  width: 135px;
-  height: 135px;
+  width: 130px;
+  height: 130px;
   object-fit: contain;
   border-radius: 40%;
   border: 3px solid #fff;
