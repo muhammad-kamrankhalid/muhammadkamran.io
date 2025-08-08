@@ -132,16 +132,20 @@ footer {
   background: #f0f0f0;       /* placeholder bg */
 }
 
-/* Profile Image itself */
+.profile-image-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 auto 15px;
+}
+
 .profile-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;       /* show full image without cropping */
-  background-color: #fff;    /* prevents transparent edges from looking odd */
+  object-fit: cover;       /* fills the circle, but may crop edges */
+  object-position: center top; /* adjust this to move face into frame */
 }
 
-@media(max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-}
