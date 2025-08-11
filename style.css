@@ -5,15 +5,24 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #f59e0b;
-    --ai-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --bg-light: #f8fafc;
-    --white: #ffffff;
-    --success-color: #10b981;
+    /* Main theme colors */
+    --primary-color: #38bdf8;       /* Bright cyan-blue for tech feel */
+    --secondary-color: #0ea5e9;     /* Sky blue for secondary accents */
+    --accent-color: #a855f7;        /* Purple accent for highlights */
+    
+    /* AI/ML-inspired gradient */
+    --ai-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0ea5e9 100%);
+
+    /* Text colors */
+    --text-dark: #f1f5f9;           /* Off-white for text on dark backgrounds */
+    --text-light: #94a3b8;          /* Muted cool gray for secondary text */
+
+    /* Background colors */
+    --bg-light: #0f172a;            /* Dark navy background */
+    --white: #ffffff;               /* Pure white (for cards/sections) */
+
+    /* Status colors */
+    --success-color: #10b981;       /* Emerald green */
 }
 
 body {
