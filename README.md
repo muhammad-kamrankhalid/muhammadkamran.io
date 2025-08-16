@@ -69,7 +69,7 @@ Al-Khwarizmi Institute of Computer Science, Lahore
 ## 📬 **Contact**
 - 📧 Email: kamran32203@gmail.com  
 - 💼 LinkedIn: [linkedin.com/in/muhammad-kamran-khalid](https://linkedin.com/in/muhammad-kamran-khalid)
-- 🌐 Portfolio Website: *(Coming Soon)*
+- 🌐 Portfolio Website: [Coming Soon](https://muhammad-kamrankhalid.github.io/muhammadkamran.io/)
 
 ---
 
