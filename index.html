@@ -1,434 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Kamran - AI/ML Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Kamran — AI/ML Engineer focused on backend engineering, agentic AI, RAG, computer vision, and production AI systems." />
+  <meta name="theme-color" content="#f5f7f6" />
+  <title>Muhammad Kamran | AI/ML Engineer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">Muhammad Kamran</div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="mobile-menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Muhammad Kamran home">
+        <span class="brand-mark">MK</span>
+        <span class="brand-text">Muhammad Kamran</span>
+      </a>
+
+      <button class="mobile-menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>Muhammad Kamran</h1>
-                <p class="title">AI/ML Engineer</p>
-                <p class="subtitle">Generative AI • Deep Learning • Machine Learning</p>
-                <p>AI/ML Engineer with hands-on experience in building intelligent solutions using Python, Pandas, Scikit-Learn, TensorFlow, PyTorch, LangChain and FastAPI. Skilled in developing <b>production-ready AI applications</b>, including client-based chatbots, computer vision systems, and NLP tools. Currently focused on <b>Generative AI</b>, integrating LLMs, RAG pipelines, and modern deployment stacks to solve real-world problems.</p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-container">
-                    <img src="images/kamran_update.jpg" alt="Muhammad Kamran - AI/ML Engineer" class="profile-image">
-                    <div class="floating-elements">
-                        <div class="floating-element"></div>
-                        <div class="floating-element"></div>
-                        <div class="floating-element"></div>
-                    </div>
-                </div>
-            </div>
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> AI/ML Engineer · Backend Engineering · Agentic AI</div>
+        <h1>Building AI systems that move from <span>model to product.</span></h1>
+        <p class="hero-lead">
+          I’m Muhammad Kamran, an AI/ML Engineer focused on production-oriented AI systems, strong Python/FastAPI backends,
+          agentic workflows, RAG, machine learning, and computer vision.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work</a>
+          <a class="button button-secondary" href="Muhammad_Kamran_CV.pdf" target="_blank" rel="noopener">View CV</a>
         </div>
+
+        <div class="hero-focus" aria-label="Core focus areas">
+          <div><strong>AI/ML</strong><span>Classical ML · CV · LLMs</span></div>
+          <div><strong>Backend</strong><span>Python · FastAPI · PostgreSQL</span></div>
+          <div><strong>Agentic AI</strong><span>LangGraph · RAG · Tool Use</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-card">
+          <div class="portrait-frame">
+            <img src="images/kamran_update.jpg" alt="Portrait of Muhammad Kamran" />
+          </div>
+          <div class="portrait-meta">
+            <div>
+              <span class="meta-label">Current role</span>
+              <strong>Associate AI Trainer</strong>
+            </div>
+            <span class="pill">Hubble42</span>
+          </div>
+        </div>
+        <div class="code-card code-card-a" aria-hidden="true">
+          <span>agent.run()</span>
+          <small>state · tools · HITL</small>
+        </div>
+        <div class="code-card code-card-b" aria-hidden="true">
+          <span>FastAPI</span>
+          <small>AI service layer</small>
+        </div>
+      </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About Me</h2>
-                <p>AI/ML Engineer passionate about creating real-world AI products</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>AI/ML Research & Development</h3>
-                    <p>Currently pursuing a Bachelor of Science in Computer Science at the University of Education, Lahore (Grade: 3.24/4.00). I am an AI/ML Engineer dedicated to building production-ready systems that bridge the gap between research and real-world application.</p>
-
-                    <div class="experience-item">
-                        <h4>AI Trainer <span style="background:#00b894;color:#fff;font-size:0.7rem;padding:2px 8px;border-radius:10px;margin-left:8px;">Current</span></h4>
-                        <div class="company">Hubble42 | Lahore</div>
-                        <div class="date">Feb 2026 – Present</div>
-                        <ul style="list-style-type: none; padding-left: 0; margin-top: 10px;">
-                            <li style="margin-bottom: 15px;">
-                                <strong>Benchmark Design:</strong>
-                                Design and evaluate complex Data Science, Software Engineering, and STEM benchmarks for frontier AI models and agentic systems.
-                            </li>
-                            <li style="margin-bottom: 15px;">
-                                <strong>Evaluation Pipelines:</strong>
-                                Develop end-to-end evaluation datasets, validation pipelines, and automated testing workflows for model assessment.
-                            </li>
-                            <li style="margin-bottom: 15px;">
-                                <strong>QA & Failure Analysis:</strong>
-                                Perform quality assurance and failure analysis on AI agent trajectories to identify model, infrastructure, and task-design issues, using Cursor, Claude Code, Gemini CLI, and GitHub Copilot.
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="experience-item">
-                        <h4>AI Intern (LLM Engineering)</h4>
-                        <div class="company">Neodustria | Remote</div>
-                        <div class="date">Oct 2025 – Jan 2026</div>
-                        <ul style="list-style-type: none; padding-left: 0; margin-top: 10px;">
-                            <li style="margin-bottom: 15px;">
-                                <strong>Ontology-Grounded AI Systems:</strong>
-                                Contributed to the development of ontology-grounded AI systems for automotive and construction engineering domains.
-                            </li>
-                            <li style="margin-bottom: 15px;">
-                                <strong>RAG Infrastructure:</strong>
-                                Developed and integrated FastAPI-based services supporting RAG workflows, working with LangChain, vLLM, PostgreSQL, GraphDB, and object storage systems.
-                            </li>
-                            <li style="margin-bottom: 15px;">
-                                <strong>3D Auto-Labeling Pipeline:</strong>
-                                Participated in development of 3D auto-labeling pipelines and dataset generation workflows using PointNet++ and mesh processing techniques, with containerized deployments via Docker.
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="experience-item">
-                        <h4>AI/ML Research Intern</h4>
-                        <div class="company">National Center of Artificial Intelligence (NCAI), UET Lahore</div>
-                        <div class="date">May 2025 – Sep 2025</div>
-                        <ul style="list-style-type: none; padding-left: 0; margin-top: 10px;">
-                            <li style="margin-bottom: 15px;">
-                                <strong>Traffic Congestion Smart Monitoring System:</strong>
-                                Applied computer vision and machine learning models for real-time traffic flow analysis.
-                            </li>
-                            <li style="margin-bottom: 15px;">
-                                <strong>Research & Documentation:</strong>
-                                Performed dataset preparation and model experimentation for object detection, and assisted in literature reviews and documentation of AI/ML systems.
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!-- Skills Grid -->
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <div class="skill-icon">🤖</div>
-                        <h4>Machine Learning</h4>
-                        <p>Scikit-Learn, TensorFlow, PyTorch, XGBoost, Feature Engineering</p>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🧠</div>
-                        <h4>Computer Vision</h4>
-                        <p>OpenCV, YOLO, PointNet++, Pose Estimation</p>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">💬</div>
-                        <h4>Generative AI</h4>
-                        <p>LangChain, RAG, HuggingFace, vLLM, Prompt Engineering, LLM Evaluation</p>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">⚙️</div>
-                        <h4>Backend & DevOps</h4>
-                        <p>FastAPI, REST APIs, Docker, Prefect, Git, GitHub, n8n</p>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🗄️</div>
-                        <h4>Databases</h4>
-                        <p>PostgreSQL, SQLite, ChromaDB</p>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon">🐍</div>
-                        <h4>Programming & Data</h4>
-                        <p>Python, SQL, Pandas, NumPy, ETL Pipelines, Web Scraping</p>
-                    </div>
-                </div>
-            </div>
+    <section class="section section-soft" id="about">
+      <div class="section-shell two-column">
+        <div class="section-heading reveal">
+          <span class="kicker">About</span>
+          <h2>AI first. Backend strong. Product aware.</h2>
         </div>
+        <div class="about-copy reveal">
+          <p>
+            I build and evaluate machine learning systems, agentic AI workflows, LLM applications, RAG platforms,
+            computer vision solutions, and backend services for AI-powered products.
+          </p>
+          <p>
+            My core strength is connecting AI capability with reliable software engineering: structured APIs, controlled tool use,
+            persistent data, evaluation pipelines, and deployment-ready services. I can work across the product interface when needed,
+            while my primary specialization remains AI/ML and backend engineering.
+          </p>
+          <div class="about-tags">
+            <span>Python</span><span>FastAPI</span><span>LangGraph</span><span>LangChain</span><span>PostgreSQL</span><span>Docker</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2>Certifications & Achievements</h2>
-                <p>Professional certifications and continuous learning in AI/ML technologies</p>
-            </div>
-            <div class="cert-grid">
-                <div class="cert-card">
-                    <div class="cert-icon">☁️</div>
-                    <h3>Microsoft Certified: Azure AI Fundamentals</h3>
-                    <p>Cloud-based AI services and machine learning on Microsoft Azure platform</p>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-icon">🎓</div>
-                    <h3>NAVTTC Certified AI Course</h3>
-                    <p>Comprehensive training program covering applied ML and DL fundamentals</p>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-icon">🐍</div>
-                    <h3>Python for Everybody - Coursera</h3>
-                    <p>Python programming specialization with a focus on data analysis</p>
-                </div>
-                <div class="cert-card">
-                    <div class="cert-icon">🤖</div>
-                    <h3>Machine Learning - Andrew NG</h3>
-                    <p>Stanford's renowned ML course covering core algorithms and applications</p>
-                </div>
-            </div>
+    <section class="section" id="experience">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="kicker">Experience</span>
+          <h2>Work across ML, AI evaluation, and production systems.</h2>
+          <p>Hands-on experience spanning classical ML, agentic AI, RAG infrastructure, evaluation workflows, and computer vision research.</p>
         </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">
+              <span class="timeline-date">Feb 2026 — Present</span>
+              <span class="timeline-place">Lahore · On-site</span>
+            </div>
+            <div class="timeline-card">
+              <div class="role-row">
+                <div>
+                  <h3>Associate AI Trainer <span>/ AI Trainer Intern</span></h3>
+                  <p class="company">Hubble42 Inc.</p>
+                </div>
+                <span class="pill pill-green">Current</span>
+              </div>
+              <ul>
+                <li>Develop and evaluate regression and classification solutions covering preprocessing, feature engineering, model training, tuning, and performance evaluation.</li>
+                <li>Design and assess Data Science, Software Engineering, and STEM benchmarks for frontier AI models and agentic systems.</li>
+                <li>Analyze multi-step agent trajectories, tool usage, reasoning failures, model outputs, and execution behavior.</li>
+                <li>Build evaluation datasets, validation pipelines, automated testing workflows, and reproducible task environments.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">
+              <span class="timeline-date">Oct 2025 — Jan 2026</span>
+              <span class="timeline-place">Basel · Remote</span>
+            </div>
+            <div class="timeline-card">
+              <h3>LLM Engineer — Intelligence Cell</h3>
+              <p class="company">Neodustria</p>
+              <ul>
+                <li>Contributed to ontology-grounded AI systems for automotive and construction engineering domains.</li>
+                <li>Built and integrated FastAPI services supporting RAG and LLM inference workflows.</li>
+                <li>Worked with LangChain, vLLM, PostgreSQL, GraphDB, object storage, Docker, and AI pipeline automation.</li>
+                <li>Supported engineering model training/evaluation and 3D auto-labeling pipelines using PointNet++ and mesh processing.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2025 — Sep 2025</span>
+              <span class="timeline-place">UET Lahore · On-site</span>
+            </div>
+            <div class="timeline-card">
+              <h3>AI/ML Intern</h3>
+              <p class="company">National Center of Artificial Intelligence (NCAI)</p>
+              <ul>
+                <li>Contributed to a Traffic Congestion Smart Monitoring System using computer vision and machine learning.</li>
+                <li>Worked on dataset preparation, preprocessing, feature analysis, object-detection experiments, research, and technical documentation.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2>Featured Projects</h2>
-                <p>AI/ML solutions addressing real-world challenges in healthcare, NLP, and computer vision</p>
-            </div>
-            <div class="projects-grid">
-
-                <div class="project-card">
-                    <div class="project-image">🤖</div>
-                    <div class="project-content">
-                        <h3>Context-Aware Chatbot for Freedomz Storage</h3>
-                        <p>Developed a production-ready chatbot that retrieves and processes company website content to deliver accurate, context-specific responses.
-                        Implemented a RAG pipeline using LangChain, HuggingFace Embeddings, ChromaDB, and Groq API, with a FastAPI backend and React.js frontend, deployed on HuggingFace Spaces and integrated into WordPress.</p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">Generative AI</span>
-                            <span class="tag">LangChain</span>
-                            <span class="tag">Groq API</span>
-                            <span class="tag">FastAPI</span>
-                            <span class="tag">React.js</span>
-                            <span class="tag">ChromaDB</span>
-                            <span class="tag">WordPress</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://freedomzstorage.com/freedomz-chatbot/" class="btn btn-primary">Live Demo</a>
-                            <a href="https://github.com/muhammad-kamrankhalid/context-aware-chatbot-freedomz-storage" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="project-card">
-                    <div class="project-image">🎬</div>
-                    <div class="project-content">
-                        <h3>Movie Review Sentiment Analysis</h3>
-                        <p>Built an NLP model to classify movie reviews as positive or negative using logistic regression. Implemented comprehensive text preprocessing with tokenization, stopword removal, and TF-IDF vectorization.</p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">NLP</span>
-                            <span class="tag">Text Classification</span>
-                            <span class="tag">Logistic Regression</span>
-                            <span class="tag">TF-IDF</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://bxl2mwwgz3fv9yaq24crvg.streamlit.app/" class="btn btn-primary">Live Demo</a>
-                            <a href="https://github.com/muhammad-kamrankhalid/Movie" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">📝</div>
-                    <div class="project-content">
-                        <h3>Paragraph Summarizer</h3>
-                        <p>Created an intelligent text summarization tool using extractive summarization techniques. Deployed as an interactive web application using Streamlit for seamless user experience.</p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">NLP</span>
-                            <span class="tag">Text Summarization</span>
-                            <span class="tag">Streamlit</span>
-                            <span class="tag">Web App</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://textsummarizer-xyitjk5pqvrhgrxznkdcbw.streamlit.app/" class="btn btn-primary">Live Demo</a>
-                            <a href="https://github.com/muhammad-kamrankhalid/textSummarizer" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">🦴</div>
-                    <div class="project-content">
-                        <h3>Bone Fracture Detection using Object Detection</h3>
-                        <p>Developed a YOLO-based object detection model to identify bone fractures in X-ray images. Utilized medical imaging preprocessing with LabelImg and OpenCV for accurate annotation and analysis.</p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">Computer Vision</span>
-                            <span class="tag">YOLO</span>
-                            <span class="tag">Medical Imaging</span>
-                            <span class="tag">OpenCV</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://bonefracturedetector-5j9nmfehchyuhybhqdnhgt.streamlit.app/" class="btn btn-primary">Live Demo</a>
-                            <a href="https://github.com/muhammad-kamrankhalid/boneFractureDetector" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">💪🤖</div>
-                    <div class="project-content">
-                        <h3>FitAI – AI-Powered Fitness Companion</h3>
-                        <p>
-                            Developed a full-stack AI fitness application with three core modules:
-                            <br>⚡ Chatbot: Built with FastAPI + LLM integration to answer fitness-related queries.
-                            <br>⚡ Recommender System: Personalized workout suggestions based on user goals (weight loss, muscle gain, endurance).
-                            <br>⚡ Computer Vision: Exercise posture correction using OpenCV and deep learning.
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">FastAPI</span>
-                            <span class="tag">LangChain</span>
-                            <span class="tag">HuggingFace</span>
-                            <span class="tag">Computer Vision</span>
-                            <span class="tag">React.js</span>
-                            <span class="tag">Vercel</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://fitmind-ai-suite.vercel.app/" class="btn btn-primary" target="_blank">Live Demo</a>
-                            <a href="https://github.com/muhammad-kamrankhalid/fitness-ai" class="btn btn-secondary" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">🔗</div>
-                    <div class="project-content">
-                        <h3>Ontology-Grounded RAG Platform</h3>
-                        <p>Developed retrieval-augmented generation workflows for engineering knowledge systems, with FastAPI services for document ingestion, semantic retrieval, and LLM inference. Integrated vector search, structured knowledge sources, and ontology-driven reasoning, containerized using Docker.</p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">RAG</span>
-                            <span class="tag">FastAPI</span>
-                            <span class="tag">LangChain</span>
-                            <span class="tag">PostgreSQL</span>
-                            <span class="tag">Docker</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">⚡</div>
-                    <div class="project-content">
-                        <h3>AI Automation Workflow System (n8n)</h3>
-                        <p>Designed and implemented AI-powered automation workflows integrating LLM APIs for data processing and content generation, delivering structured outputs through workflow orchestration and API integrations.</p>
-                        <div class="project-tags">
-                            <span class="tag ai-tag">Automation</span>
-                            <span class="tag">n8n</span>
-                            <span class="tag">LLM APIs</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">🕸️</div>
-                    <div class="project-content">
-                        <h3>Web Scraping & ETL Pipelines</h3>
-                        <p>Developed scalable web scraping pipelines to extract structured data from 100+ sources, and designed ETL workflows for cleaning, transforming, and storing datasets in relational databases.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Pandas</span>
-                            <span class="tag">SQL</span>
-                            <span class="tag">PostgreSQL</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+    <section class="section section-soft" id="projects">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="kicker">Selected projects</span>
+          <h2>AI systems built for real workflows.</h2>
+          <p>Projects are ordered around my strongest focus: agentic AI, backend systems, RAG, and applied machine learning.</p>
         </div>
+
+        <div class="featured-project reveal">
+          <div class="project-number">01</div>
+          <div class="featured-copy">
+            <div class="project-label">Flagship · Agentic AI</div>
+            <h3>ScopeAI — Agentic Client Discovery & Project Planning Platform</h3>
+            <p>
+              An AI workspace that turns unstructured client briefs into structured requirements, clarification questions,
+              solution architectures, risk analyses, and implementation roadmaps through a stateful LangGraph workflow.
+            </p>
+            <div class="project-highlights">
+              <span>Conditional routing</span><span>Tool execution</span><span>Human-in-the-loop</span><span>Checkpointing</span><span>RLS</span><span>Observability</span>
+            </div>
+            <div class="tech-line">LangGraph · Python · FastAPI · Supabase · PostgreSQL · Next.js · React · TypeScript</div>
+          </div>
+          <div class="flow-card" aria-label="ScopeAI workflow">
+            <div>Client brief</div><i></i>
+            <div>Analyze & extract</div><i></i>
+            <div class="flow-accent">Clarify with human</div><i></i>
+            <div>Architecture · Risks · Roadmap</div>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-index">02</span><span class="project-type">RAG · Backend</span></div>
+            <h3>Ontology-Grounded RAG Platform</h3>
+            <p>Engineering knowledge platform combining FastAPI services, semantic retrieval, structured knowledge, ontology-driven reasoning, and containerized deployment.</p>
+            <div class="project-tags"><span>Python</span><span>FastAPI</span><span>LangChain</span><span>PostgreSQL</span><span>Docker</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-index">03</span><span class="project-type">Client project</span></div>
+            <h3>Context-Aware Chatbot for Freedomz Storage</h3>
+            <p>Production RAG chatbot with grounded business responses, semantic retrieval, FastAPI backend, React interface, and WordPress integration.</p>
+            <div class="project-tags"><span>LangChain</span><span>Groq</span><span>FastAPI</span><span>ChromaDB</span><span>React</span></div>
+            <div class="project-actions">
+              <a href="https://freedomzstorage.com/freedomz-chatbot/" target="_blank" rel="noopener">Live demo ↗</a>
+              <a href="https://github.com/muhammad-kamrankhalid/context-aware-chatbot-freedomz-storage" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-index">04</span><span class="project-type">Computer Vision</span></div>
+            <h3>FitAI — AI-Powered Fitness Companion</h3>
+            <p>AI fitness system combining pose-based movement analysis, personalized recommendations, and LLM-powered guidance through backend services.</p>
+            <div class="project-tags"><span>OpenCV</span><span>MediaPipe</span><span>FastAPI</span><span>LangChain</span><span>Hugging Face</span></div>
+            <div class="project-actions">
+              <a href="https://fitmind-ai-suite.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a>
+              <a href="https://github.com/muhammad-kamrankhalid/fitness-ai" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-index">05</span><span class="project-type">Automation</span></div>
+            <h3>AI Automation Workflow System</h3>
+            <p>Multi-step automation workflows connecting LLM APIs and external services for data processing, content generation, and structured outputs.</p>
+            <div class="project-tags"><span>n8n</span><span>LLM APIs</span><span>API Integration</span><span>Workflow Orchestration</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-index">06</span><span class="project-type">Computer Vision</span></div>
+            <h3>Bone Fracture Detection</h3>
+            <p>YOLO-based object detection for identifying fractures in X-ray images with medical-image annotation and preprocessing workflows.</p>
+            <div class="project-tags"><span>YOLO</span><span>OpenCV</span><span>Deep Learning</span></div>
+            <div class="project-actions">
+              <a href="https://bonefracturedetector-5j9nmfehchyuhybhqdnhgt.streamlit.app/" target="_blank" rel="noopener">Live demo ↗</a>
+              <a href="https://github.com/muhammad-kamrankhalid/boneFractureDetector" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top"><span class="project-index">07</span><span class="project-type">Data Engineering</span></div>
+            <h3>Web Scraping & ETL Pipelines</h3>
+            <p>Scalable extraction pipelines spanning 100+ sources, with data cleaning, transformation, validation, and relational storage for downstream ML use.</p>
+            <div class="project-tags"><span>Python</span><span>Pandas</span><span>SQL</span><span>PostgreSQL</span></div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get In Touch</h2>
-                <p>Let's discuss AI/ML opportunities and innovative projects</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <div class="contact-item">
-                        <span class="contact-icon">📧</span>
-                        <div>
-                            <strong>Email:</strong><br>
-                            <a href="mailto:kamran32203@gmail.com">kamran32203@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📱</span>
-                        <div>
-                            <strong>Phone:</strong><br>
-                            <a href="tel:+923216467996">+92-321-6467996</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">🌐</span>
-                        <div>
-                            <strong>Website:</strong><br>
-                            <a href="https://muhammadkamran.io" target="_blank">muhammadkamran.io</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">💼</span>
-                        <div>
-                            <strong>LinkedIn:</strong><br>
-                            <a href="https://www.linkedin.com/in/muhammad-kamran-khalid/" target="_blank">linkedin.com/in/muhammad-kamran-khalid/</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <div>
-                            <strong>Location:</strong><br>
-                            Lahore, Pakistan
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="AI/ML Project Discussion" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your AI/ML project or opportunity..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
+    <section class="section" id="skills">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <span class="kicker">Technical toolkit</span>
+          <h2>Deepest where AI meets backend engineering.</h2>
         </div>
+
+        <div class="skills-layout">
+          <article class="skill-panel skill-panel-primary reveal">
+            <span class="skill-label">Core</span>
+            <h3>AI / Machine Learning</h3>
+            <div class="skill-cloud">
+              <span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>XGBoost</span><span>Regression</span><span>Classification</span><span>Feature Engineering</span><span>Model Evaluation</span>
+            </div>
+          </article>
+
+          <article class="skill-panel skill-panel-primary reveal">
+            <span class="skill-label">Core</span>
+            <h3>Generative & Agentic AI</h3>
+            <div class="skill-cloud">
+              <span>LangGraph</span><span>LangChain</span><span>RAG</span><span>Tool Calling</span><span>Stateful Agents</span><span>Human-in-the-Loop</span><span>Structured Outputs</span><span>Hugging Face</span><span>vLLM</span>
+            </div>
+          </article>
+
+          <article class="skill-panel reveal">
+            <span class="skill-label">Strong</span>
+            <h3>Backend Engineering</h3>
+            <div class="skill-cloud">
+              <span>Python</span><span>FastAPI</span><span>REST APIs</span><span>API Design</span><span>Authentication</span><span>Microservices</span><span>PostgreSQL</span><span>Supabase</span>
+            </div>
+          </article>
+
+          <article class="skill-panel reveal">
+            <span class="skill-label">Applied</span>
+            <h3>Computer Vision & Data</h3>
+            <div class="skill-cloud">
+              <span>OpenCV</span><span>YOLO</span><span>MediaPipe</span><span>PointNet++</span><span>Pandas</span><span>NumPy</span><span>ETL</span><span>Web Scraping</span>
+            </div>
+          </article>
+
+          <article class="skill-panel reveal">
+            <span class="skill-label">Infrastructure</span>
+            <h3>DevOps & Workflow</h3>
+            <div class="skill-cloud">
+              <span>Docker</span><span>Git</span><span>GitHub</span><span>Vercel</span><span>Hugging Face Spaces</span><span>Prefect</span><span>n8n</span>
+            </div>
+          </article>
+
+          <article class="skill-panel reveal">
+            <span class="skill-label">Supporting</span>
+            <h3>Product Interface</h3>
+            <div class="skill-cloud muted-cloud">
+              <span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>shadcn/ui</span>
+            </div>
+            <p class="skill-note">Used to deliver complete AI products; AI/ML and backend remain my primary focus.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="social-links">
-                <a href="mailto:kamran32203@gmail.com" class="social-link" title="Email">📧</a>
-                <a href="https://www.linkedin.com/in/muhammad-kamran-khalid/" target="_blank" class="social-link" title="LinkedIn">💼</a>
-                <a href="https://muhammadkamran.io" target="_blank" class="social-link" title="Website">🌐</a>
-
-            </div>
-            <p>&copy; 2025 Muhammad Kamran. All rights reserved. Made with ❤️ for AI/ML</p>
+    <section class="section section-soft" id="credentials">
+      <div class="section-shell credentials-grid">
+        <div class="education-card reveal">
+          <span class="kicker">Education</span>
+          <h2>Bachelor of Science in Computer Science</h2>
+          <p>University of Education, Lahore</p>
+          <div class="education-footer"><span>CGPA</span><strong>3.24 / 4.00</strong></div>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+        <div class="certifications-card reveal">
+          <span class="kicker">Certifications</span>
+          <ul class="cert-list">
+            <li><span>01</span><div><strong>Microsoft Certified: Azure AI Fundamentals</strong></div></li>
+            <li><span>02</span><div><strong>NAVTTC Certified Artificial Intelligence Course</strong></div></li>
+            <li><span>03</span><div><strong>Machine Learning — Andrew Ng</strong><small>Coursera</small></div></li>
+            <li><span>04</span><div><strong>Python for Everybody</strong><small>Coursera</small></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-shell contact-wrap reveal">
+        <div>
+          <span class="kicker">Let’s build something useful</span>
+          <h2>Open to AI/ML and backend engineering opportunities.</h2>
+          <p>If you’re building an AI product, agentic workflow, ML system, or backend service, I’d be glad to discuss the problem.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:kamran32203@gmail.com">Email me</a>
+          <a class="button button-secondary-dark" href="https://www.linkedin.com/in/muhammad-kamran-khalid/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="text-link" href="https://github.com/muhammad-kamrankhalid" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-shell footer-inner">
+      <p>© <span id="year"></span> Muhammad Kamran</p>
+      <p>AI/ML · Backend · Agentic AI</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
