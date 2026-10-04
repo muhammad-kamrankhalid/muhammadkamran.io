@@ -1,21 +1,22 @@
 # Muhammad Kamran — AI/ML Engineer Portfolio
 
-Personal portfolio website for **Muhammad Kamran**, an **AI/ML Engineer with strong backend engineering skills**, focused on building practical AI systems across classical machine learning, agentic AI, LLM applications, RAG, computer vision, and production-oriented backend services.
+Personal portfolio website for **Muhammad Kamran**, an **AI/ML Engineer** focused on connecting the full AI lifecycle — **data → models → evaluation → agents → reliable systems** — across classical machine learning, LLM/RAG, agentic AI, data science, computer vision, and production-oriented Python/FastAPI engineering.
 
 **Portfolio:** [muhammadkamran.io](https://muhammadkamran.io)  
 **GitHub:** [github.com/muhammad-kamrankhalid](https://github.com/muhammad-kamrankhalid)  
-**LinkedIn:** [linkedin.com/in/muhammad-kamran-khalid](https://www.linkedin.com/in/m-kamran-ml-engineer/)  
+**LinkedIn:** [linkedin.com/in/m-kamran-ai-ml-engineer](https://www.linkedin.com/in/m-kamran-ai-ml-engineer/)  
 **Email:** [kamran32203@gmail.com](mailto:kamran32203@gmail.com)
 
 ---
 
 ## Portfolio Positioning
 
-The portfolio is intentionally positioned around three primary areas:
+The portfolio is intentionally positioned around the updated profile theme: **building AI systems across the full lifecycle, from data and models to evaluation, agents, and reliable production systems.** Core areas include:
 
-- **AI / Machine Learning** — classical ML, deep learning, model evaluation, computer vision, and applied AI systems.
-- **Backend Engineering** — Python, FastAPI, REST APIs, PostgreSQL, authentication, API integration, and AI service development.
-- **Agentic & Generative AI** — LangGraph, LangChain, RAG, tool calling, stateful workflows, human-in-the-loop systems, structured outputs, and LLM evaluation.
+- **Machine Learning & Data Science** — regression, classification, feature engineering, model training, tuning, evaluation, deep learning, and applied AI systems.
+- **LLM / RAG & Agentic AI** — LangGraph, LangChain, RAG, embeddings, tool calling, stateful workflows, human-in-the-loop systems, validation, and failure analysis.
+- **Production AI & Backend Engineering** — Python, FastAPI, REST APIs, scalable AI pipelines, PostgreSQL, Docker, deployment workflows, and AI service integration.
+- **Computer Vision** — OpenCV, YOLO, MediaPipe, PointNet++, annotation, preprocessing, and model-training workflows.
 
 Frontend technologies such as **Next.js, React, TypeScript, Tailwind CSS, and shadcn/ui** are presented as supporting skills used to deliver complete AI products rather than the core specialization.
 
@@ -86,28 +87,31 @@ Scalable extraction and ETL pipelines covering 100+ sources, including cleaning,
 
 ## Professional Experience
 
-### Hubble42 Inc. — Associate AI Trainer / AI Trainer Intern
-**Feb 2026 — Present | Lahore, Pakistan | On-site**
+### Hubble42 Inc. — Mid Level AI / ML Engineer
+**Apr 2026 — Present | Lahore, Pakistan**
 
-- Develop and evaluate **classical machine learning solutions** for regression and classification problems.
-- Work across preprocessing, feature engineering, model training, hyperparameter tuning, and performance evaluation.
-- Design and evaluate Data Science, Software Engineering, and STEM benchmarks for frontier AI models.
-- Analyze **agentic AI systems**, including multi-step trajectories, tool usage, reasoning failures, model outputs, and execution behavior.
-- Build evaluation datasets, validation pipelines, automated testing workflows, and reproducible task environments.
+- Develop and evaluate classical machine learning solutions for regression and classification problems, including preprocessing, feature engineering, model training, hyperparameter tuning, and performance evaluation.
+- Design and evaluate Data Science, Software Engineering, and STEM benchmarks for frontier AI models and agentic systems.
+- Analyze multi-step agent trajectories, tool usage, reasoning failures, and task execution behavior.
+- Build evaluation datasets, validation pipelines, automated testing workflows, reproducible task environments, and detailed failure analyses.
 
-### Neodustria — LLM Engineer, Intelligence Cell
-**Oct 2025 — Jan 2026 | Basel, Switzerland | Remote**
+**Previous role at Hubble42:** Junior AI / ML Engineer — **Feb 2026 — Apr 2026**
 
-- Contributed to ontology-grounded AI systems for automotive and construction engineering domains.
-- Developed and integrated FastAPI services supporting RAG and LLM inference workflows.
-- Worked with LangChain, vLLM, PostgreSQL, GraphDB, object storage, Docker, and AI pipeline automation.
-- Supported specialized engineering model training, evaluation, deployment, and 3D auto-labeling workflows using PointNet++ and mesh processing.
+### Neodustria — Junior LLM Engineer, Intelligence Cell
+**Oct 2024 — Jan 2026 | Basel, Switzerland**
 
-### National Center of Artificial Intelligence (NCAI) — AI/ML Intern
-**May 2025 — Sep 2025 | UET Lahore | On-site**
+- Worked on the development and integration of LLM-based systems within production workflows.
+- Contributed to scalable AI pipelines and automation systems for enterprise use cases.
+- Assisted in fine-tuning and deployment workflows for Specialized Engineering Models (SEMs).
+- Worked with vLLM, ontology-based systems, workflow orchestration, 3D auto-labeling, dataset preparation, experimentation, and system optimization.
 
-- Contributed to a Traffic Congestion Smart Monitoring System using computer vision and machine learning.
-- Worked on dataset preparation, preprocessing, feature analysis, object-detection experiments, research, evaluation, and technical documentation.
+### National Center of Artificial Intelligence (NCAI), Pakistan — AI/ML Intern
+**May 2024 — Sep 2024 | Lahore**
+
+- Contributed to a research-based traffic congestion detection system under senior guidance.
+- Implemented machine learning and deep learning models across multiple AI projects.
+- Worked on data annotation, preprocessing, dataset preparation, and computer vision workflows.
+- Supported model training, experimentation, and evaluation to improve project outcomes.
 
 ---
 
@@ -186,9 +190,12 @@ Scalable extraction and ETL pipelines covering 100+ sources, including cleaning,
 
 ## Education
 
-**Bachelor of Science in Computer Science**  
+**Bachelor’s Degree, Computer Science**  
 University of Education, Lahore  
 **CGPA:** 3.24 / 4.00
+
+**Intermediate, Computer Science**  
+Government College University (GCU), Lahore
 
 ---
 
@@ -274,13 +281,13 @@ The included `Muhammad_Kamran_CV.pdf` file is linked directly from the **View CV
 ## Contact
 
 **Muhammad Kamran**  
-AI/ML Engineer | Backend Engineering | Agentic AI & LLM Systems
+AI/ML Engineer | Machine Learning · LLM/RAG · Agentic AI · Python/FastAPI
 
 - Email: [kamran32203@gmail.com](mailto:kamran32203@gmail.com)
-- LinkedIn: [linkedin.com/in/muhammad-kamran-khalid](https://www.linkedin.com/in/muhammad-kamran-khalid/)
+- LinkedIn: [linkedin.com/in/m-kamran-ai-ml-engineer](https://www.linkedin.com/in/m-kamran-ai-ml-engineer/)
 - GitHub: [github.com/muhammad-kamrankhalid](https://github.com/muhammad-kamrankhalid)
 - Portfolio: [muhammadkamran.io](https://muhammadkamran.io)
 
 ---
 
-> Building AI systems that move from model to product.
+> Connecting data, models, evaluation, agents, and reliable AI systems.
