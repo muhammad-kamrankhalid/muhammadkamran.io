@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Muhammad Kamran**, an **AI/ML Engineer** focused on connecting the full AI lifecycle — **data → models → evaluation → agents → reliable systems** — across classical machine learning, LLM/RAG, agentic AI, data science, computer vision, and production-oriented Python/FastAPI engineering.
 
-**Portfolio:** [muhammadkamran.io](https://muhammadkamran.io)  
+**Portfolio:** [muhammadkamran.io](https://muhammad-kamrankhalid.github.io/muhammadkamran.io/)  
 **GitHub:** [github.com/muhammad-kamrankhalid](https://github.com/muhammad-kamrankhalid)  
 **LinkedIn:** [linkedin.com/in/m-kamran-ai-ml-engineer](https://www.linkedin.com/in/m-kamran-ai-ml-engineer/)  
 **Email:** [kamran32203@gmail.com](mailto:kamran32203@gmail.com)
@@ -286,7 +286,7 @@ AI/ML Engineer | Machine Learning · LLM/RAG · Agentic AI · Python/FastAPI
 - Email: [kamran32203@gmail.com](mailto:kamran32203@gmail.com)
 - LinkedIn: [linkedin.com/in/m-kamran-ai-ml-engineer](https://www.linkedin.com/in/m-kamran-ai-ml-engineer/)
 - GitHub: [github.com/muhammad-kamrankhalid](https://github.com/muhammad-kamrankhalid)
-- Portfolio: [muhammadkamran.io](https://muhammadkamran.io)
+- Portfolio: [muhammadkamran.io](https://muhammad-kamrankhalid.github.io/muhammadkamran.io/)
 
 ---
 
